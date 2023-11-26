@@ -218,7 +218,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//rawcdn.githack.com/caefisica/biblioteca/ec2bd45249292d058b6ee7af85e51bb67602dfe5/app.js"></script>
+  <script src="//rawcdn.githack.com/caefisica/biblioteca/b6a728c3b830be5fe499031d5a97ae29cc377430/app.js"></script>
   <!-- UA: ${ua} -->
 </head>
 <body>
