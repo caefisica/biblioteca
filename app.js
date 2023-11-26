@@ -5559,6 +5559,7 @@ const nav_style_colors = {
   "amber": {"background-color": "#FFD740", "color": "#FFF"},
   "orange": {"background-color": "#FFAB40", "color": "#FFF"},
   "deep-orange": {"background-color": "#FF6E40", "color": "#FFF"},
+  "grey": {"background-color": "#212529", "color": "#000"},
 }
 
 document.write(
