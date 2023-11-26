@@ -6,6 +6,7 @@
   "scripts": {
     "clean": "shx rm -rf node_modules pnpm-lock.yaml",
     "dev": "npx wrangler dev worker.js",
+    "deploy": "pnpm wrangler deploy .\\worker.js",
     "version": "npx wrangler version"
   },
   "author": "",
