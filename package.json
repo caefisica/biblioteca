@@ -5,7 +5,7 @@
   "main": "worker.js",
   "scripts": {
     "clean": "shx rm -rf node_modules pnpm-lock.yaml",
-    "dev": "npx wrangler dev",
+    "dev": "npx wrangler dev worker.js",
     "version": "npx wrangler version"
   },
   "author": "",
@@ -13,5 +13,8 @@
   "devDependencies": {
     "shx": "^0.3.4",
     "wrangler": "^3.17.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
   }
 }
