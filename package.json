@@ -1,0 +1,17 @@
+{
+  "name": "bibworker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "worker.js",
+  "scripts": {
+    "clean": "shx rm -rf node_modules pnpm-lock.yaml",
+    "dev": "npx wrangler dev",
+    "version": "npx wrangler version"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "shx": "^0.3.4",
+    "wrangler": "^3.17.1"
+  }
+}
