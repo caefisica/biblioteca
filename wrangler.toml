@@ -1,0 +1,3 @@
+name = "biblioteca-worker"
+compatibility_date = "2023-11-26"
+node_compat = true
